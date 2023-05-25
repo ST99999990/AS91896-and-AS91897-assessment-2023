@@ -8,3 +8,4 @@ commit#5 - tested out the first entry box and it worked well as expected
 commit#6 - made the dropdown menu to allow for costumers to chose items 
 commit#7 - the dropdown works however the placement, the text and overall look is not good
 commit#8 - removed the dropdown and switched it for a normal textbox to make it simpler 
+commit#9 - added the entry box for the costumer adress and email
