@@ -10,3 +10,4 @@ commit#7 - the dropdown works however the placement, the text and overall look i
 commit#8 - removed the dropdown and switched it for a normal textbox to make it simpler 
 commit#9 - added the entry box for the costumer adress and email
 commit#10 - removed the entry box for an email address in replace for a recipt number input 
+commit#11 - tested the section for the item hire and 1-500 item hire limit, overall the first trail didn't work out as expected however i'll go back to it to make it more usable. 
