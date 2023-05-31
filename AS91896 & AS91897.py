@@ -53,7 +53,7 @@ def submit(): #command for the sumbit button
 
 main_page = Tk()
 main_page.title('JULIES PARTY HIRE')#tite of the site
-main_page.geometry("850x400")#geometry ( size and shape ) of the site
+main_page.geometry("850x500")#geometry ( size and shape ) of the site
 main_page.configure(bg="LightSkyBlue2")#background colour 
 
 Label(main_page, font=("impact", 20), text="JULIES PARTY HIRE", bg="LightSkyBlue2").grid(column=1, row=0)#
@@ -126,7 +126,7 @@ tree_view.heading("Receipt Number", text="Receipt Number")
 submit_button = Button(main_page, text="Submit", command=submit and append_details, font="helvetica", bg="SkyBlue2", fg="white")
 submit_button.grid(column=0, row=8, ipadx=1, ipady=5)
 #append details button 
-append_button = Button(main_page, text="Append Details", command=append_details, font="helvetica", bg="SkyBlue2", fg="white")
+append_button = Button(main_page, text="Append Details", command=append_details and submit, font="helvetica", bg="SkyBlue2", fg="white")
 append_button.grid(column=0, row=6, ipadx=1, ipady=5)
 #quit button
 quit_button = Button(main_page, text="QUIT", command=quit_app, font="sans", bg="SkyBlue2", fg="white")
@@ -151,7 +151,5 @@ def delete_row():
 #button for the row deleting
 delete_button = Button(main_page, text="Delete Row", command=delete_row, font="helvetica", bg="SkyBlue2", fg="white")
 delete_button.grid(column=2, row=8, ipadx=1, ipady=5)
-
-
 
 main_page.mainloop()
