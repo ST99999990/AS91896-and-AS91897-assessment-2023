@@ -13,4 +13,4 @@ commit#10 - removed the entry box for an email address in replace for a recipt n
 commit#11 - tested the section for the item hire and 1-500 item hire limit, overall the first trail didn't work out as expected however i'll go back to it to make it more usable. 
 commit#12 - started working on the submision buttons and the google slides
 commit#13 - fixed the problem with the item quantity and the code works as expected 
-
+commit#14 - just updated the outcome with the size and shape
